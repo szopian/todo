@@ -1,5 +1,9 @@
+import React from "react";
+
+import Background from "./components/background/background";
+
 function App() {
-  return <div className="App">apptodo</div>;
+  return <Background />;
 }
 
 export default App;
