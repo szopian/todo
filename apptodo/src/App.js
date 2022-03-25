@@ -14,3 +14,12 @@ function App() {
 }
 
 export default App;
+
+const addForm = document.querySelector(".add");
+console.log(addForm);
+
+addForm.addEventListener("", (e) => {
+  e.preventDefault();
+  const todo = addForm.add.value;
+  console.log(todo);
+});
